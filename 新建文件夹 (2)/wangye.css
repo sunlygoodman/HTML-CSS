@@ -1,0 +1,167 @@
+
+    #header{
+        display: block;
+        background:gray url(../www/top_bg.jpg);
+        
+        width:1002px;
+        height: 127px;
+        background-repeat: no-repeat;
+         
+    }
+ #nav  a{
+        color: #363636;
+        display: block;
+        width: 90px;
+        height: 37px;
+        font-size: 16px;
+        font-family: Î¢ÈíÑÅºÚ;
+        border-right: 1PX SOLID white;
+    }
+ #nav   a:hover{
+        color:white;
+        background: url(../www/nav_on.gif);
+    }
+#nav a:visited{
+        color:purple;
+        
+    }
+    .clr{
+        clear:both;
+    }
+    #nav li {
+       
+        float:left;
+        
+        
+        vertical-align: middle;
+        margin-right: 1px;
+        text-align: center;
+        
+        
+        background-image: url(title="../www/nav_on.gif");
+        
+    }
+    #main{
+        width: 1002px;
+        
+    }
+    #lside{
+        height:600px;
+        width:700px;
+        border: 1px solid white;
+        float: left;
+        
+    }
+    .four{
+        width:325px;
+        height:260px;
+        border: 1px solid white;
+        background: #DEDEDE;
+        float:left;
+        margin: 10px;
+        }
+    #rside{
+        height:600px;
+        width:294px;
+        background: #B7B7B7;
+        float: right;
+    }
+    #footer{
+        height:120px;
+        background: white;
+        width:1002px;
+        border: 1px solid white;
+        
+    }
+    
+   .subtitle1 img{
+    float: left;
+    display:block;
+    margin: 5px 0 0 10px;
+    
+    
+   }
+    .subtitle1 a{
+        font-size: 12px;
+        color: gray;
+        float:right;
+        margin-top: 10px;
+        
+    }
+   .subtitle1{
+   height: 37px;  
+   background: gray url(../www/sub_bar_title_bg.gif);
+   } 
+   .subtitle1 h1{
+    float: left;
+    font-size: 16px;
+    font-family: 'microsoft yahei',simhei;
+    margin-top: 10px;
+   }
+   
+   .four img{
+    float:left;
+    margin-left: 10px;
+    border: 5px solid white;
+    background: white;
+    
+   }
+   .four ul{
+    float:left;
+    margin-left: 10px;
+   }
+   .four h2{
+    font-size: 16px;
+    font-family: microsoft yahei;
+    margin:0px 0 5px 0px;
+    background: #C6C6C6;
+    text-align: center;
+    color:black;
+   }
+ .four li{
+    background: url(../www/service_intro_bg.gif);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    
+    padding-left: 10px;
+   
+ }
+
+    
+.four a:hover{
+    color:red;
+}
+.four a:visited{
+    color:purple;
+}
+.three{
+    width: 292px;
+    height:198px;
+    border: 1px solid white;
+    background: #E1E1E1;
+}
+.three h3{
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    text-align: center;
+    background: #C9C9C9;
+   
+}
+.three li{
+   font-size: 20px;
+   font-family: cursive;
+  
+}
+.three a:hover{
+    color: red;
+    background: url(../www/nav_on.gif);
+}
+.three a:visited{
+    color:purple;
+}
+#container{
+    width:1002px;  
+     
+   position:absolute;  
+   left:25%;
+}
