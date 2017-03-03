@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="phpadmin" />
+
+	<title>首页布局实战</title>
+    <link rel="stylesheet" href="E:\phpDesigner 7\www\reset.css"/>
+    <style>
+    #header{
+        display: block;
+        background:gray url(../www/top_bg.jpg);
+        
+        width:1002px;
+        height: 127px;
+        background-repeat: no-repeat;
+         
+    }
+ #nav  a{
+        color: #363636;
+        display: block;
+        width: 90px;
+        height: 37px;
+        font-size: 16px;
+        font-family: 微软雅黑;
+        border-right: 1PX SOLID white;
+    }
+ #nav   a:hover{
+        color:white;
+        background: url(../www/nav_on.gif);
+    }
+#nav a:visited{
+        color:purple;
+        
+    }
+    .clr{
+        clear:both;
+    }
+    #nav li {
+       
+        float:left;
+        
+        
+        vertical-align: middle;
+        margin-right: 1px;
+        text-align: center;
+        
+        
+        background-image: url(title="../www/nav_on.gif");
+        
+    }
+    #main{
+        width: 1002px;
+    }
+    #lside{
+        height:600px;
+        width:694px;
+        border: 1px solid gray;
+        float: left;
+        
+    }
+    .four{
+        width:320px;
+        height:260px;
+        border: 1px solid black;
+        
+        float:left;
+        margin: 10px;
+        }
+    #rside{
+        height:600px;
+        width:294px;
+        background: blue;
+        float: right;
+    }
+    #footer{
+        height:120px;
+        background: orange;
+        width:1002px;
+    }
+    
+   .subtitle1 img{
+    float: left;
+    display:block;
+    margin: 5px 0 0 10px;
+    
+   }
+    .subtitle1 a{
+        font-size: 12px;
+        color: gray;
+        float:right;
+    }
+   .subtitle1{
+   height: 37px;  
+   background: gray url(../www/core_service_bg.gif);
+   } 
+   .subtitle1 h1{
+    float: left;
+    font-size: 16px;
+    font-family: 'microsoft yahei',simhei;
+    
+   }
+   .subtitle1{
+    background: orange;
+   }
+   .four img{
+    float:left;
+   }
+   .four ul{
+    float:left;
+    margin-left: 20px;
+   }
+ 
+    
+    </style>
+    
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+<img src="../www/logo.jpg"  />
+<ul id="nav">
+<li><a href="#" >导航1  </a></li>
+<li><a href="#" >导航2  </a></li>
+<li><a href="#" >导航3  </a></li>
+<li><a href="#" >导航4  </a></li>
+<li><a href="#" >导航5  </a></li>
+<li><a href="#" >导航6  </a></li>
+<li><a href="#" >导航7  </a></li>
+</ul>
+</div>
+<div id="main">
+<div id="lside">
+<div class="subtitle1"> <img  src="../www/circle.gif" /><h1>核心业务</h1>
+ <a href="#">MORE&gt;&gt;</a></div>
+
+
+<div class="four"><h2>电子商务类网站建设</h2>
+<img src="../www/eshop_service.jpg" alt="" />
+<ul>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+</ul>
+
+
+
+</div>
+<div class="four"><h2>电子商务类网站建设</h2>
+<img src="../www/eshop_service.jpg" alt="" />
+<ul>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+</ul>
+</div>
+<div class="four"><h2>电子商务类网站建设</h2>
+<img src="../www/eshop_service.jpg" alt="" />
+<ul>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+</ul>
+</div>
+<div class="four"><h2>电子商务类网站建设</h2>
+<img src="../www/eshop_service.jpg" alt="" />
+<ul>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+<li><a href="#">方便的订单管理</a></li>
+</ul>
+</div>
+</div>
+<div id="rside">
+<div class="subtitle2">
+
+<ul id="art" >
+<li><a href="#" >文章1</a></li>
+<li><a href="#" >文章2</a></li>
+<li><a href="#" >文章3</a></li>
+<li><a href="#" >文章4</a></li>
+<li><a href="#" >文章5</a></li>
+<li><a href="#" >文章6</a></li>
+<li><a href="#" >文章7</a></li>
+</ul>
+
+
+</div>
+<div class="clr"></div>
+</div>
+<div id="footer"></div>
+</div>
+
+
+</body>
+</html>
